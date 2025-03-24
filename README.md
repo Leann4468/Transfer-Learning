@@ -115,6 +115,4 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 
 ## RESULT
-</br>
-</br>
-</br>
+Thus, the transfer Learning for classification using VGG-19 architecture has succesfully implemented.
