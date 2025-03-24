@@ -2,25 +2,34 @@
 ## Aim
 To Implement Transfer Learning for classification using VGG-19 architecture.
 ## Problem Statement and Dataset
-Include the problem statement and Dataset
+Develop a deep learning model for image classification using transfer learning. Utilize the pre-trained VGG19 model as the feature extractor, fine-tune it, and adapt it to classify images into specific categories.
 </br>
 </br>
 </br>
 
 ## DESIGN STEPS
-### STEP 1:
-</br>
+### **Step 1: Import Libraries and Load Dataset**
+- Import the necessary libraries.
+- Load the dataset.
+- Split the dataset into training and testing sets.
 
-### STEP 2:
-</br>
+### **Step 2: Initialize Model, Loss Function, and Optimizer**
+- Define the model architecture.
+- Use `CrossEntropyLoss` for multi-class classification.
+- Choose the `Adam` optimizer for efficient training.
 
-### STEP 3:
+### **Step 3: Train the Model**
+- Train the model using the training dataset.
+- Optimize the model parameters to minimize the loss.
 
-Write your own steps
-<br/>
+### **Step 4: Evaluate the Model**
+- Test the model using the testing dataset.
+- Measure performance using appropriate evaluation metrics.
+
+### **Step 5: Make Predictions on New Data**
+- Use the trained model to predict outcomes for new inputs.
 
 ## PROGRAM
-
 
 ### Load Pretrained Model and Modify for Transfer Learning
 ```
